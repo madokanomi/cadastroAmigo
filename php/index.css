@@ -1,0 +1,21 @@
+label{
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+h1{
+    font-family:sans-serif;
+    font-weight:bold;
+    color:white;
+}
+
+fieldset{
+    border-width:5px;
+    background-image:url('assets/sive.jfif');
+    background-size:cover;
+    border-color:rgb(110, 110, 110);
+    border-style:inherit;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width:50vh; height:60vh; border-radius:10px; 
+}
