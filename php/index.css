@@ -1,21 +1,39 @@
 label{
-    font-size:20px;
+    font-size:25px;
     font-family:sans-serif;
     font-weight:bold;
+    color:white;
 }
 
 h1{
     font-family:sans-serif;
     font-weight:bold;
     color:white;
+    position:relative;
+    left:69px;
+    font-size:60px;
 }
 
 fieldset{
     border-width:5px;
-    background-image:url('assets/sive.jfif');
+    background-image:url('assets/shadowuap.png');
     background-size:cover;
     border-color:rgb(110, 110, 110);
     border-style:inherit;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width:50vh; height:60vh; border-radius:10px; 
+    position:relative;
+    left:70px;
+    top:10px;
+}
+
+input[type=text]{
+    border-radius:10px; padding-left:8px; border-style:solid; border-color:rgb(34, 34, 34);
+    width:25vh;
+    height:1.5vh;
+}
+
+input:hover{
+    cursor:pointer;
+    filter:brightness(0.8);
 }
